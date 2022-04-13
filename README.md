@@ -23,11 +23,23 @@ https://www.w3schools.com/css/css_border.asp
 - to get `?` to show, use value as a prop, pass through component call
 - using one component and props, get grid with ?
 - organize the container around each grid. place div around the map
-
+- $ git status
+- $ git add .
+- $ git commit -m "3 by 3 grid board game with a question marks"
+- $ git push origin board-game
+- $ git checkout main
+- $ git pull origin main
+- $ git branch -d board-game
 
 
 - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
-
+- branch name: position
+- create a method to return alert
+- pass method call as a prop through component call
+- give the key a unique identifier for the React child component warning
+- pass index as a prop on component call
+- create onclick attribute on opening tag in Square.js that will trigger method with anonymous function to prevent an immeidately invoke function
+- alternate method call on child component would be to create a method that will hold the props `handleClick = () => {this.props.showIndex(this.props.index)}` and then including attribute as `onClick={this.handleClick}`
 
 - As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
 - As a user, if I select the winning square the question mark will become a treasure emoji.
