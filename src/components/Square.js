@@ -4,6 +4,9 @@ class Square extends Component {
   render() {
     return(
       <>
+        <div className="box">
+          {this.props.value}   
+        </div>
       </>
     )
   }
